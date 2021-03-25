@@ -91,8 +91,33 @@ body{
 
 - change background color of the card 
 
+body {
+    margin: 0px;
+    background-color: fuchsia;
+    display: grid;
+    place-content: center;
+}
 .card {
     background-color: white;
-    height: 100px;
-    width: 75px;
+    height: 400px;
+    width: 250px;
+    display: grid;
+    place-items:center;
+    margin:100px;
+}
+
+- add background colors to different sections of the card
+
+<div class="card-details">
+    <span>ONLINE</span>
+    <h1>John Shoshone</h1>
+</div>
+<p>Psychic Healer</p>
+<div class="card-details">
+    <h2>5 mins free</h2>
+    <span>then $5.99/min</span>
+</div>
+
+.card-details {
+    background-color: greenyellow;
 }

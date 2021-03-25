@@ -7,6 +7,7 @@ body {
     background-color: fuchsia;
     display: grid;
     place-content: center;
+    text-align: center;
 }
 
 .card {
@@ -14,6 +15,9 @@ body {
     height: 400px;
     width: 250px;
     display: grid;
-    place-items:center;
-    margin:20vh;
+    margin:100px;
+}
+
+.card-details {
+    background-color: greenyellow;
 }
