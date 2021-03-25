@@ -73,13 +73,10 @@
 
 *{
     box-sizing: border-box;
-    margin: 0px;
 }
-
-div {
-    background-color: blanchedalmond;
-    height: 100px;
-    width: 75px;
+body{ 
+    margin: 0px;
+    background-color: fuchsia;
 }
 
 - open the html file in a web browser
@@ -92,3 +89,10 @@ div {
 
 # Code It Up
 
+- change background color of the card 
+
+.card {
+    background-color: white;
+    height: 100px;
+    width: 75px;
+}

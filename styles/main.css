@@ -1,10 +1,19 @@
 *{
     box-sizing: border-box;
-    margin: 0px;
 }
 
-div {
-    background-color: blanchedalmond;
-    height: 100px;
-    width: 75px;
+body {
+    margin: 0px;
+    background-color: fuchsia;
+    display: grid;
+    place-content: center;
+}
+
+.card {
+    background-color: white;
+    height: 400px;
+    width: 250px;
+    display: grid;
+    place-items:center;
+    margin:20vh;
 }
