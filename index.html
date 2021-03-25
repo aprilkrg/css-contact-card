@@ -5,21 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/test.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
     <title>Contact Card</title>
 </head>
 <body>
     <div class="card">
-        <div class="card-details">
+        <!--  profile  -->
+          <section class="card__profile">
             <span>ONLINE</span>
+            <img src="https://picsum.photos/150/150" alt="John">
             <h1>John Shoshone</h1>
-        </div>
-        <p>Psychic Healer</p>
-        <div class="card-details">
-            <h2>5 mins free</h2>
-            <span>then $5.99/min</span>
-        </div>
-    </div>
+          </section>
+        <!--  description  -->
+          <section class="card__description">
+        <!--   stars   -->
+            <ul>
+              <li><i class="fas fa-star filled"></i></li>
+              <li><i class="fas fa-star filled"></i></li>
+              <li><i class="fas fa-star filled"></i></li>
+              <li><i class="fas fa-star filled"></i></li>
+              <li><i class="fas fa-star "></i></li>
+            </ul>
+            <p>Psychic Healer</p>
+          </section>
+        <!--  pricing  -->
+          <section class="card__pricing">
+            <h3>5 mins free</h3>
+            <p>then $5.99/min</p>
+          </section>
+        <!--  contact  -->
+          <section class="card__contact">
+            <button>
+              <i class="fas fa-phone"></i>
+            </button>
+            <button>
+              <i class="far fa-comments"></i>
+            </button>
+          </section>
+        </div>        
 </body>
 </html>
